@@ -1,0 +1,8 @@
+bases:
+  - ../../base
+
+namePrefix: dev-
+
+patchesStrategicMerge:
+  - nginx-deployment.yaml
+  - nginx-svc.yaml
